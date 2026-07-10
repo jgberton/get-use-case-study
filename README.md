@@ -2,13 +2,15 @@
   <img src="./assets/banner.png" width="100%">
 </p>
 
+![React Native] ![TypeScript] ![Firebase] ![Expo] ![Google Play] ![Mercado Pago]
+
 # 📱 Get & Use
 
-### A peer-to-peer marketplace built from scratch with React Native, Expo and Firebase.
+### Production-ready cross-platform marketplace built with React Native.
 
 Get & Use is a cross-platform marketplace that allows people to rent, lend and manage everyday items through a secure and intuitive mobile experience.
 
-> From problem validation to production deployment.
+> Designed, built and deployed from scratch.
 
 🌐 Website: https://geteuse.com.br
 
@@ -28,7 +30,7 @@ Get & Use was created to connect people willing to rent and lend everyday items,
 
 I designed and developed the product from the initial idea to production.
 
-Responsibilities included:
+As the sole developer and product owner, I was responsible for:
 
 - Product Discovery
 - UX/UI Design
@@ -120,25 +122,32 @@ Single codebase running on Android, iOS and Web.
 # 🏗 Architecture
 
 ```
-React Native (Expo)
+Mobile App (React Native)
         │
         ▼
- Firebase Authentication
+Firebase Authentication
         │
         ▼
-    Cloud Firestore
+Cloud Functions (Backend)
         │
         ▼
- Firebase Cloud Functions
+Mercado Pago Integration
         │
         ▼
-   Mercado Pago API
-        │
-        ▼
- Push Notifications
+Firebase Cloud Messaging
 ```
 
 ---
+
+## 📊 Project Overview
+
+- 📱 Mobile + Web application
+- ⚡ 100+ commits
+- 🔥 Firebase backend
+- 💳 Mercado Pago integration
+- 💬 Real-time chat
+- 📦 Cross-platform
+- ☁ Cloud-native architecture
 
 # ⚙ Tech Stack
 
@@ -202,16 +211,27 @@ Authentication, Firestore Security Rules and server-side validation using Cloud 
 
 ---
 
-# 📈 Product Highlights
+# 📈 Why this project stands out
 
-- Mobile + Web Platform
-- Published on Google Play
-- Production-ready architecture
-- Cloud-native backend
-- Real-time synchronization
-- Modern UI
-- Scalable Firebase infrastructure
+✅ Production-ready architecture
 
+✅ Google Play published
+
+✅ Real-world payment gateway
+
+✅ Cross-platform
+
+✅ Real-time synchronization
+
+✅ Cloud-native backend
+
+✅ Firebase Security Rules
+
+✅ Push Notifications
+
+✅ Offline support
+
+✅ Modular architecture
 ---
 
 # 📚 What I Learned
@@ -222,21 +242,17 @@ It required balancing product decisions, technical architecture and business con
 
 The project reinforced the importance of building software around real user problems instead of simply implementing features.
 
+Building Get & Use strengthened not only my technical skills, but also my ability to make product decisions, prioritize features and continuously improve software based on real-world constraints.
+
 ---
 
 # 🔗 Links
 
-🌐 Website
+[![Website](https://img.shields.io/badge/Website-Get&Use-57ff8f)](...)
 
-https://geteuse.com.br
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-success)](...)
 
-📱 Google Play
-
-https://play.google.com/store/apps/details?id=com.getanduseapp
-
-👨‍💼 LinkedIn
-
-https://linkedin.com/in/jgberton
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-José_Gabriel-blue)](...)
 
 ---
 
