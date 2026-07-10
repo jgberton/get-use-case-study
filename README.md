@@ -196,15 +196,15 @@ Authentication, Firestore Security Rules and server-side validation using Cloud 
 
 # 📦 Project Structure
 
-app/
-components/
-hooks/
-services/
-functions/
-providers/
-types/
-utils/
-assets/
+app/  
+components/  
+hooks/  
+services/  
+functions/  
+providers/  
+types/  
+utils/  
+assets/  
 
 # 📈 Why this project stands out
 
