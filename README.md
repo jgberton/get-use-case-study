@@ -2,19 +2,19 @@
   <img src="./assets/banner.png" width="100%">
 </p>
 
-![React Native] 
+<p align="center">
 
-![TypeScript] 
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Mercado_Pago](https://img.shields.io/badge/Mercado_Pago-00B1EA?style=for-the-badge)
+![Google_Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=3DDC84)
 
-![Firebase] 
-
-![Expo] 
-
-![Google Play] 
-
-![Mercado Pago]
+</p>
 
 # 📱 Get & Use
+> 🚀 Built from a real-world problem and published on Google Play.
 
 ### Production-ready cross-platform marketplace built with React Native.
 
@@ -81,83 +81,56 @@ Payments
 
 # ✨ Main Features
 
-## Marketplace
-
-Browse items available for rent by category and location.
-
----
-
-## User Profiles
-
-Verified users with ratings and reviews.
-
----
-
-## Reservation System
-
-Complete reservation flow with availability control.
-
----
-
-## Real-time Chat
-
-Integrated messaging between renters and owners.
-
----
-
-## Secure Payments
-
-Mercado Pago integration for online payments.
-
----
-
-## Reviews
-
-Rate completed rentals and build user reputation.
-
----
-
-## Push Notifications
-
-Receive updates about reservations and messages.
-
----
-
-## Cross-platform
-
-Single codebase running on Android, iOS and Web.
-
----
+| Feature | Description |
+|---------|-------------|
+| 📦 Marketplace | Browse and rent everyday items by category and location. |
+| 👤 User Profiles | Public profiles with ratings, reviews and verification. |
+| 📅 Reservation System | Availability calendar with booking conflict prevention. |
+| 💬 Real-time Chat | Instant messaging between renters and owners. |
+| 💳 Secure Payments | Mercado Pago integration for online transactions. |
+| ⭐ Reviews & Ratings | Reputation system after completed rentals. |
+| 🔔 Push Notifications | Reservation, payment and chat notifications. |
+| 📱 Cross-platform | Android, iOS and Web from a single codebase. |
+| 🔐 Authentication | Firebase Authentication with email verification. |
+| ☁ Cloud Backend | Cloud Functions and Firestore powering the platform. |
 
 # 🏗 Architecture
 
 ```
-Mobile App (React Native)
-        │
-        ▼
-Firebase Authentication
-        │
-        ▼
-Cloud Functions (Backend)
-        │
-        ▼
-Mercado Pago Integration
-        │
-        ▼
-Firebase Cloud Messaging
+              React Native (Expo)
+                      │
+                      ▼
+            Firebase Authentication
+                      │
+                      ▼
+              Cloud Firestore
+               ▲              │
+               │              ▼
+      Cloud Functions    Real-time Listeners
+               │              │
+               └──────┬───────┘
+                      ▼
+              Mercado Pago API
+                      │
+                      ▼
+           Firebase Cloud Messaging
 ```
 
 ---
 
 ## 📊 Project Overview
 
-- 📱 Mobile + Web application
-- ⚡ 100+ commits
-- 🔥 Firebase backend
-- 💳 Mercado Pago integration
-- 💬 Real-time chat
-- 📦 Cross-platform
-- ☁ Cloud-native architecture
+| Metric | Value |
+|---------|------:|
+| Platform | Android • iOS • Web |
+| Architecture | Cloud-native |
+| Backend | Firebase |
+| Payments | Mercado Pago |
+| Authentication | Firebase Auth |
+| Database | Cloud Firestore |
+| Real-time | Firestore Listeners |
+| Language | TypeScript |
+| Commits | 100+ |
 
 # ⚙ Tech Stack
 
@@ -221,6 +194,18 @@ Authentication, Firestore Security Rules and server-side validation using Cloud 
 
 ---
 
+# 📦 Project Structure
+
+app/
+components/
+hooks/
+services/
+functions/
+providers/
+types/
+utils/
+assets/
+
 # 📈 Why this project stands out
 
 ✅ Production-ready architecture
@@ -258,11 +243,11 @@ Building Get & Use strengthened not only my technical skills, but also my abilit
 
 # 🔗 Links
 
-[![Website](https://img.shields.io/badge/Website-Get&Use-57ff8f)](...)
+[![Website](https://img.shields.io/badge/Website-Get&Use-57ff8f?style=for-the-badge)](https://geteuse.com.br)
 
-[![Google Play](https://img.shields.io/badge/Google_Play-Download-success)](...)
+[![Google Play](https://img.shields.io/badge/Google_Play-Download-success?style=for-the-badge)](https://play.google.com/store/apps/details?id=com.getanduseapp)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-José_Gabriel-blue)](...)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-José_Gabriel_Berton-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jgberton)
 
 ---
 
