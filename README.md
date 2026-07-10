@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.png" width="100%">
+</p>
+
 # 📱 Get & Use
 
 ### A peer-to-peer marketplace built from scratch with React Native, Expo and Firebase.
