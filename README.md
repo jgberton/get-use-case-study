@@ -2,7 +2,17 @@
   <img src="./assets/banner.png" width="100%">
 </p>
 
-![React Native] ![TypeScript] ![Firebase] ![Expo] ![Google Play] ![Mercado Pago]
+![React Native] 
+
+![TypeScript] 
+
+![Firebase] 
+
+![Expo] 
+
+![Google Play] 
+
+![Mercado Pago]
 
 # 📱 Get & Use
 
