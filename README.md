@@ -75,6 +75,7 @@ As the sole developer and product owner, I was responsible for:
 | 📅 Reservation System | Availability calendar with booking conflict prevention. |
 | 💬 Real-time Chat | Instant messaging between renters and owners. |
 | 💳 Secure Payments | Mercado Pago integration for online transactions. |
+| 💸 Payment Split | Automatic split payments between platform and item owner using Mercado Pago.|
 | ⭐ Reviews & Ratings | Reputation system after completed rentals. |
 | 🔔 Push Notifications | Reservation, payment and chat notifications. |
 | 📱 Cross-platform | Android, iOS and Web from a single codebase. |
@@ -93,7 +94,7 @@ As the sole developer and product owner, I was responsible for:
               Cloud Firestore
                ▲              │
                │              ▼
-      Cloud Functions    Real-time Listeners
+     Cloud Functions    Real-time Listeners
                │              │
                └──────┬───────┘
                       ▼
@@ -159,7 +160,7 @@ Building a reservation flow capable of preventing booking conflicts while keepin
 
 ## Payment Flow
 
-Integration with Mercado Pago, including reservation payments, cancellations and refund handling.
+Integration with Mercado Pago including split payments, reservation processing, cancellations, refunds and payout management through Cloud Functions.
 
 ---
 
@@ -195,25 +196,25 @@ assets/
 
 # 📈 Why this project stands out
 
-✅ Production-ready architecture
+🏗 Production-ready architecture
 
-✅ Google Play published
+📱 Published on Google Play
 
-✅ Real-world payment gateway
+💳 Marketplace-ready payment split
 
-✅ Cross-platform
+🌐 Cross-platform (Android • iOS • Web)
 
-✅ Real-time synchronization
+⚡ Real-time synchronization
 
-✅ Cloud-native backend
+☁ Cloud-native backend
 
-✅ Firebase Security Rules
+🔒 Firebase Security Rules
 
-✅ Push Notifications
+🔔 Push Notifications
 
-✅ Offline support
+📦 Offline support
 
-✅ Modular architecture
+🧩 Modular architecture
 ---
 
 # 📚 What I Learned
@@ -230,11 +231,19 @@ Building Get & Use strengthened not only my technical skills, but also my abilit
 
 # 🔗 Links
 
-[![Website](https://img.shields.io/badge/Website-Get&Use-57ff8f?style=for-the-badge)](https://geteuse.com.br)
+<p align="center">
+  <a href="https://geteuse.com.br">
+    <img src="https://img.shields.io/badge/Website-Get&Use-57ff8f?style=for-the-badge">
+  </a>
 
-[![Google Play](https://img.shields.io/badge/Google_Play-Download-success?style=for-the-badge)](https://play.google.com/store/apps/details?id=com.getanduseapp)
+  <a href="https://play.google.com/store/apps/details?id=com.getanduseapp">
+    <img src="https://img.shields.io/badge/Google_Play-Download-success?style=for-the-badge">
+  </a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-José_Gabriel_Berton-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/jgberton)
+  <a href="https://linkedin.com/in/jgberton">
+    <img src="https://img.shields.io/badge/LinkedIn-José_Gabriel_Berton-blue?style=for-the-badge&logo=linkedin">
+  </a>
+</p>
 
 ---
 
