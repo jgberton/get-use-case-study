@@ -59,23 +59,10 @@ As the sole developer and product owner, I was responsible for:
 
 # 📱 Screenshots
 
-> (Add screenshots here)
+<p align="center">
+  <img src="./assets/prints.png" width="100%">
+</p>
 
-Home
-
-Marketplace
-
-Item Details
-
-Reservation Flow
-
-Real-time Chat
-
-Profile
-
-Calendar
-
-Payments
 
 ---
 
